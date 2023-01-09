@@ -2,8 +2,10 @@
 Generates UK standard bingo books (6 tickets to a page, numbers 1-90), generates and calls numbers for game, and checks claims.
 
 ## Blah blah narrative
-My first proper job (I don't count the part-time Christmas job at Toys 'R' Us that I had when I was in high school) was in a bingo hall. I started in the booksales department and I remember a light-hearted argument with the supervisor and a member of staff that included the retort "How would you know? Do you know what an RNG looks like? How would you know if it's simple!?". RNG wasn't a term in common-use outside the gaming industries (both gambling and video-gaming), and in bingo halls it had almost mystical connotations. This was in 2002 and I'd just finished my Highers. I listened thinking "Well an RNG is simple to code - at least in corel. There's a function built-in for it."
+My first proper job (I don't count the part-time Christmas job at Toys 'R' Us that I had when I was in high school) was in a bingo hall. I started in the booksales department and I remember a light-hearted argument with the supervisor and a member of staff that included the retort "How would you know? Do you know what an RNG looks like? How would you know if it's simple!?". RNG wasn't a term in common-use outside the gaming industries (both gambling and video-gaming), and in bingo halls it had almost mystical connotations. This was in 2002 and I'd just finished my Highers. I listened thinking "Well an RNG is simple to code - at least in corel - because there's a function built-in for it."
+
 "Ah! But how do you know the built-in function is random enough to meet the standards required for bingo? Remember that random isn't really random!" I answered myself back.
+
 "Fair point. Well, I've still got VB6. I'll try making an RNG for bingo when I go home."
 
 I did try, but something you should know is that the term RNG meant more than just the number generation when used in the bingo. We meant the program that generated the numbers AND validated claims - among other things. I started with something "simple" though. The actual random number generator. So randomly generate numbers from 1-90 90 times. "Oh! Obviously, we'll have duplicates to deal with! Don't worry. We'll just reject those and keep trying until we get a number that hasn't been generated already."
